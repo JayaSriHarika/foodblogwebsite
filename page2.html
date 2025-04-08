@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #0056b3; /* Dark blue */
+        }
+        .navbar .nav-link {
+            color: white; /* White text for links */
+        }
+        .navbar .nav-link:hover {
+            color: #ffcc00; /* Bright yellow on hover */
+        }
+        .card-img-top {
+            width: 100%;
+            height: 450px; /* Set a fixed height */
+            object-fit: cover; /* Ensure the image scales and crops appropriately */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-5 text-center">
+        <h1>Welcome to food blog</h1>
+        <p><i>Enjoy the delicious food</i></p>
+    </header>
+
+   <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Foodie's Paradise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#home">Home</a></li>
+            <li class="breadcrumb-item"><a href="#shops">Recipes</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Recipes</li>
+        </ol>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light py-5 text-center">
+        <div class="container">
+            <h2>"Sweet Indulgence Awaits"</h2>
+            <p class="lead">"Where Every Slice is Special"</p>
+            <a href="#recipes" class="btn btn-primary mt-3">Explore Receipes</a>
+        </div>
+    </section>
+
+     <!-- Recipes Section -->
+  <section id="recipes" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">For moments that matter, there’s always cake.</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="https://www.butterbeready.com/wp-content/uploads/2019/09/DK6A0489.jpg" class="card-img-top" alt="Recipe">
+            <div class="card-body">
+              <h5 class="card-title">Blueberry Cheesecake Ice Cream</h5>
+              <p class="card-text">Learn how to make this classic Blueberry Cheesecake Ice cream.</p>
+              <a href="https://www.butterbeready.com/blueberry-cheesecake-ice-cream/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="https://bakewithshivesh.com/wp-content/uploads/2020/07/D6E2DB55-C4DE-4DCC-92A7-1D90B7CD7AD1.jpeg" class="card-img-top" alt="Recipe">
+            <div class="card-body">
+              <h5 class="card-title">Red Velvet Cake</h5>
+              <p class="card-text">Red Velvet Cake is a creamy delicious with red velvet flavour. </p>
+              <a href="https://bakewithshivesh.com/no-oven-red-velvet-cake/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+<div class="col-md-6">
+          <div class="card">
+            <img src="https://livforcake.com/wp-content/uploads/2017/07/black-forest-cake-7.jpg" class="card-img-top" alt="Recipe">
+            <div class="card-body">
+              <h5 class="card-title">Black Forest Cake</h5>
+              <p class="card-text">Black Forest Cake is a creamy delicious with dark chocolate flavour </p>
+              <a href="https://livforcake.com/black-forest-cake/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="https://preppykitchen.com/wp-content/uploads/2024/03/Chocolate-Ice-Cream-Feature.jpg" class="card-img-top" alt="Recipe">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Ice Cream</h5>
+              <p class="card-text">Enjoy the delicious Chocolate Ice Cream</p>
+              <a href="https://preppykitchen.com/chocolate-ice-cream/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    <!-- Pagination -->
+      <nav aria-label="Menu Pagination">
+        <ul class="pagination justify-content-center mt-4">
+          <li class="page-item ">
+            <a class="page-link" href="index.html" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item "><a class="page-link" href="index.html">1</a></li>
+          <li class="page-item active"><a class="page-link" href="page2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="page3.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="page3.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+ <!-- Contact Section with Form -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+`	
+ 
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+	      <p>&copy; 2025 Foodie's Delight. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
+
+
